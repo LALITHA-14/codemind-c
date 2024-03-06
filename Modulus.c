@@ -1,8 +1,11 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 int main()
 {
-    int a,b;
-    scanf("%d%d",&a,&b);
-    int mod=a%b;
-    printf("%d",mod);
+    int num1,num2,modulus;
+    cin>>num1;
+    cin>>num2;
+    modulus=num1%num2;
+    cout<<modulus;
+    return 0;
 }
