@@ -1,8 +1,12 @@
-#include<stdio.h>
+#include<iostream>
+#include<iomanip>
+using namespace std;
 int main()
 {
-    int b1=2,b2=3,h=4;
-    scanf("%d%d%d",&b1,&b2,&h);
-    float area=0.5*h*(b1+b2);
-    printf("%.4f",area);
+    int a,b,c;
+    float area;
+    cin>>a>>b>>c;
+    area=0.5*(c)*(a+b);
+    cout<<std::fixed<<setprecision(4)<<area;
+    
 }
