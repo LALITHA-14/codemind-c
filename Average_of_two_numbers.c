@@ -1,11 +1,9 @@
-#include<iostream>
-#include<iomanip>
-using namespace std;
+#include<stdio.h>
 int main()
 {
     int a,b;
     float avg;
-    cin>>a>>b;
+    scanf("%d%d",&a,&b);
     avg=(a+b)/2.0;
-    cout<<"Average"<<" of "<<a<<" and "<<b<<" is: "<<std::fixed<<setprecision(2)<<avg;
+    printf("Average of %d and %d is: %.2f",a,b,avg);
 }
