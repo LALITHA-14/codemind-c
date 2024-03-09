@@ -1,10 +1,9 @@
-#include<iostream>
-using namespace std;
+#include<stdio.h>
 int main()
 {
     int a,area,volume;
-    cin>>a;
+    scanf("%d",&a);
     area=6*a*a;
     volume=a*a*a;
-    cout<<"Surface area"<<" = "<<area <<" and "<<"Volume"<<" = "<<volume;
+    printf("Surface area = %d and Volume = %d ",area,volume);
 }
