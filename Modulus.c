@@ -1,11 +1,7 @@
-#include<iostream>
-using namespace std;
+#include<stdio.h>
 int main()
 {
-    int num1,num2,modulus;
-    cin>>num1;
-    cin>>num2;
-    modulus=num1%num2;
-    cout<<modulus;
-    return 0;
+    int a,b;
+    scanf("%d%d",&a,&b);
+    printf("%d",a%b);
 }
