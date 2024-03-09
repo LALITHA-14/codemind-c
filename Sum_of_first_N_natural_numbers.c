@@ -1,9 +1,8 @@
-#include<iostream>
-using namespace std;
+#include<stdio.h>
 int main()
 {
-    int n,result;
-    cin>>n;
-    result=n*(n+1)/2;
-    cout<<result;
+int n,avg;
+scanf("%d",&n);
+avg=n*(n+1)/2;
+printf("%d",avg);
 }
