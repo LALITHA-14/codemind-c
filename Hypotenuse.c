@@ -1,12 +1,9 @@
-#include<iostream>
-#include<iomanip>
-#include<cmath>
-using namespace std;
+#include<stdio.h>
+#include<math.h>
 int main()
 {
     int a,b;
-    cin>>a>>b;
+    scanf("%d%d",&a,&b);
     float hyp=sqrt((a*a)+(b*b));
-    cout<<std::fixed<<setprecision(2)<<float(hyp)
-    ;
+    printf("%.2f",hyp);
 }
