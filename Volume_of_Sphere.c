@@ -1,8 +1,10 @@
-#include<stdio.h>
+#include<iostream>
+#include<iomanip>
+using namespace std;
 int main()
 {
     int a;
-    scanf("%d",&a);
-    float area=1.333333*3.14*a*a*a;
-    printf("%.2f",area);
+    cin>>a;
+    float vol=1.333333*3.14*a*a*a;
+    cout<<std::fixed<<setprecision(2)<<vol;
 }
