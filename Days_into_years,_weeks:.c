@@ -1,11 +1,10 @@
-#include<iostream>
-using namespace std;
+#include<stdio.h>
 int main()
 {
     int days;
-    cin>>days;
+    scanf("%d",&days);
     int years=days/365;
     int weeks=(days%365)/7;
-    cout<<years<<"
-"<<weeks;
+    printf("%d
+%d",years,weeks);
 }
